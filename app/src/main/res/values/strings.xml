@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TP3Design</string>
+    <string name="labelLogin">LOGIN</string>
+    <string name="labelUsername">Username :</string>
+    <string name="labelPass">Password :</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="btnSingup">SING-UP</string>
+</resources>

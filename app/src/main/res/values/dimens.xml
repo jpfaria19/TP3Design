@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_horizontal_margin">16dp</dimen>
+    <dimen name="small_vertical_margin">16dp</dimen>
+
+    <dimen name="medium_horizontal_margin">32dp</dimen>
+    <dimen name="medium_vertical_margin">32dp</dimen>
+
+    <dimen name="large_horizontal_margin">64dp</dimen>
+    <dimen name="large_vertical_margin">64dp</dimen>
+
+    <dimen name="veryLarge_horizontal_margin">128dp</dimen>
+    <dimen name="veryLarge_vertical_margin">128dp</dimen>
+</resources>
