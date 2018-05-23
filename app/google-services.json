@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "583939344271",
+    "firebase_url": "https://tp3design-1fb51.firebaseio.com",
+    "project_id": "tp3design-1fb51",
+    "storage_bucket": "tp3design-1fb51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583939344271:android:4c5644021278b693",
+        "android_client_info": {
+          "package_name": "infnet.gads.jpfaria.tp3design"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583939344271-g0l6vvippvb2v770g59jus5k4guh9pjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgVG81rIapdesyG0OESK9nxikgl_P2nj8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

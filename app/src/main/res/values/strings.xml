@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">TP3Design</string>
     <string name="labelLogin">LOGIN</string>
-    <string name="labelUsername">Username :</string>
-    <string name="labelPass">Password :</string>
+    <string name="labelUsername">Username:</string>
+    <string name="labelPass">Password:</string>
     <string name="btnSubmit">Submit</string>
     <string name="btnSingup">SING-UP</string>
+    <string name="nome">Nome:</string>
+    <string name="hint_name">Digite seu primeiro nome</string>
+    <string name="sobreNome">Sobrenome:</string>
+    <string name="email">E-mail:</string>
+    <string name="hint_surname">Digite seu sobrenome</string>
+    <string name="hint_email">Digite seu e-mail</string>
+    <string name="register">CADASTRAR</string>
+    <string name="clear">LIMPAR</string>
+    <string name="appName">CADASTRO</string>
 </resources>
