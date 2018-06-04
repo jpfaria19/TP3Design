@@ -6,12 +6,14 @@
     <string name="btnSubmit">Submit</string>
     <string name="btnSingup">SING-UP</string>
     <string name="nome">Nome:</string>
-    <string name="hint_name">Digite seu primeiro nome</string>
-    <string name="sobreNome">Sobrenome:</string>
+    <string name="hint_name">Digite seu nome</string>
     <string name="email">E-mail:</string>
-    <string name="hint_surname">Digite seu sobrenome</string>
     <string name="hint_email">Digite seu e-mail</string>
     <string name="register">CADASTRAR</string>
     <string name="clear">LIMPAR</string>
     <string name="appName">CADASTRO</string>
+    <string name="password">Senha:</string>
+    <string name="hint_password">Digite sua senha</string>
+    <string name="userNameLogin">Digite seu e-mail</string>
+    <string name="passwordLogin">Digite sua senha</string>
 </resources>
