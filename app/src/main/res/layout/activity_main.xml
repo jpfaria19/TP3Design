@@ -36,7 +36,8 @@
         android:hint="@string/userNameLogin"
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/labelUsername"
-        android:layout_toRightOf="@+id/labelUsername" />
+        android:layout_toRightOf="@+id/labelUsername"
+        android:inputType="textEmailAddress"/>
 
     <TextView
         android:id="@+id/labelPassword"

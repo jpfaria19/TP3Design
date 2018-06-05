@@ -116,6 +116,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_span="2"
+            android:onClick="btnClear"
             android:text="@string/clear"/>
 
     </TableRow>

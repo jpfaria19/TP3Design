@@ -16,4 +16,5 @@
     <string name="hint_password">Digite sua senha</string>
     <string name="userNameLogin">Digite seu e-mail</string>
     <string name="passwordLogin">Digite sua senha</string>
+    <string name="wellcome">Seja bem-vindo:</string>
 </resources>

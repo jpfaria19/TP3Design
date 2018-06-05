@@ -29,6 +29,7 @@ public class TableActivity extends AppCompatActivity {
         txtPersonName = findViewById(R.id.fieldUsername);
         txtEmailAddress = findViewById(R.id.fieldEmail);
         txtPassword = findViewById(R.id.fieldPassword);
+
         firebaseAuth = FirebaseAuth.getInstance();
     }
 
@@ -42,12 +43,19 @@ public class TableActivity extends AppCompatActivity {
                 if (task.isSuccessful()){
                     Toast.makeText(TableActivity.this, "Registrado com sucesso", Toast.LENGTH_LONG).show();
                     Intent intent = new Intent(TableActivity.this, MainActivity.class);
+                    startActivity(intent);
                 }else{
                     Log.e("ERROR", task.getException().toString());
                     Toast.makeText(TableActivity.this, task.getException().getMessage(), Toast.LENGTH_LONG).show();
                 }
             }
         });
+    }
+
+    public void btnClear(View v){
+        txtPersonName.getText().clear();
+        txtPassword.getText().clear();
+        txtEmailAddress.getText().clear();
     }
     
 }
