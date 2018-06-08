@@ -17,7 +17,8 @@
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="30sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:contentDescription="@string/labelLogin"/>
 
     <TextView
         android:id="@+id/labelUsername"
@@ -27,7 +28,8 @@
         android:layout_marginTop="@dimen/medium_horizontal_margin"
         android:text="@string/labelUseremail"
         android:textStyle="bold"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:contentDescription="@string/labelUseremail"/>
 
     <EditText
         android:id="@+id/fieldUseremail"
@@ -37,7 +39,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/labelUsername"
         android:layout_toRightOf="@+id/labelUsername"
-        android:inputType="textEmailAddress"/>
+        android:inputType="textEmailAddress"
+        android:contentDescription="@string/userNameLogin"/>
 
     <TextView
         android:id="@+id/labelPassword"
@@ -47,7 +50,8 @@
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:text="@string/labelPass"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:contentDescription="@string/labelPass"/>
 
     <EditText
         android:id="@+id/fieldPassword"
@@ -57,7 +61,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/labelPassword"
         android:layout_toRightOf="@+id/labelPassword"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:contentDescription="@string/passwordLogin"/>
 
     <Button
         android:id="@+id/btnResetPassword"
@@ -66,7 +71,8 @@
         android:layout_below="@id/fieldPassword"
         android:layout_marginTop="@dimen/medium_horizontal_margin"
         android:text="@string/btn_reset_password"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/black"
+        android:contentDescription="@string/btn_reset_password"/>
 
     <Button
         android:id="@+id/btnSubmit"
@@ -76,7 +82,8 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="@dimen/small_horizontal_margin"
         android:onClick="btnSub"
-        android:text="@string/btnSubmit" />
+        android:text="@string/btnSubmit"
+        android:contentDescription="@string/btnSubmit"/>
 
 
     <Button
@@ -87,6 +94,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="@dimen/medium_horizontal_margin"
         android:onClick="btnSingUp"
-        android:text="@string/btnSingup" />
+        android:text="@string/btnSingup"
+        android:contentDescription="@string/btnSingup"/>
 
 </RelativeLayout>
